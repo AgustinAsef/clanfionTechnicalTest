@@ -1,0 +1,97 @@
+.footerContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #252f3d; 
+}
+
+.footerContainer div {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  justify-content: space-evenly
+}
+
+.copyrightDiv {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.mailDiv {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: lowercase;
+}
+
+.secureLockimg{
+  width: 16px;
+  height: 16px;
+}
+
+.secureDiv {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+@media (max-width:460px) {
+  .footerContainer div {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    justify-content: space-evenly
+  }
+  
+  .copyrightDiv {
+    color: #fff;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+  
+  .mailDiv {
+    color: #fff;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: lowercase;
+  }
+  
+  .secureLockimg{
+    width: 13px;
+    height: 13px;
+  }
+  
+  .secureDiv {
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: capitalize;
+  }
+}

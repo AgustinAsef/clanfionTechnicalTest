@@ -1,0 +1,359 @@
+.productSpecsTitlesContainer {
+  max-width: 50%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+ 
+.productSpecsTitle {
+  align-self: stretch;
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.productSpecsTitleBlue{
+  color: #2C7EF8;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.productSpecsInformationContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.productSpecsInformationImg {
+  width: 134px;
+  height: 134px;
+  flex-shrink: 0;
+}
+
+.productSpecsInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1 0 0;
+}
+
+.productSpecsInformationTitleContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.productSpecsInformationTitle {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.productSpecsInformationPrice {
+  color: #969696;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.productSpecsInformationDiscount {
+  color: #2c7ef8;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; 
+  text-transform: capitalize;
+}
+
+.productSpecsInformationStars {
+  width: 98px;
+  height: 18px;
+}
+
+.productSpecsInformationStockContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.productSpecsInformationStockContainer img {
+  width: 16px;
+  height: 16px;
+}
+
+.productSpecsInformationStockContainer div {
+  color: #37465a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.productSpecsInformationDescription {
+  color: #4d5254;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.productSpecsInformationCharacteristicsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.productSpecsInformationCharacteristics {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.productSpecsInformationDiscountContainer{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: #edf3fd;
+}
+
+.productSpecsInformationDiscountImg {
+  width: 32px;
+  height: 32px;
+}
+
+.productSpecsInformationDiscountText {
+  padding: 12px 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; 
+}
+
+.productSpecsInformationDiscountText strong {
+  color: #2c7ef8;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.productSpecsInformationDiscountText img{
+  margin-right: 10px;
+}
+
+.productSpecsInformationButtonsContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.productSpecsInformationGetButton {
+  display: flex;
+  padding: 16px 64px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  align-self: stretch;
+  border-radius: 50px;
+  background-color: #59ae43;
+  border: none;
+  cursor: pointer;
+}
+
+.productSpecsInformationGetButtonText {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.productSpecsInformationGetButtonImg {
+  width: 16px;
+}
+
+.productSpecsInformationSecureContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid #cfcfcf;
+}
+
+.productSpecsInformationSecureShipping {
+  color: #4d5254;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.productSpecsInformationSecureLine {
+  padding-left: 16px;
+  color: #cfcfcf;
+}
+
+.productSpecsInformationSecureEncryption {
+  color: #4d5254;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.productSpecsInformationCardsAccept {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33%;
+  gap: 2px;
+}
+
+.productSpecsInformationDeclineButton {
+  color: #f82c2c;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.productSpecsInformationSatisfactionContainer{
+  display: flex;
+align-items: center;
+gap: 16px;
+}
+
+
+.productSpecsInformationSatisfactionImg{
+  width: 88px;
+height: 88px;
+}
+
+.productSpecsInformationSatisfactionText{
+  color: #4D5254;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+@media (max-width:1200px) {
+  .productSpecsTitlesContainer {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .productSpecsInformationContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+  .productSpecsInformation {
+    display: flex;
+    gap: 15px;
+    flex: 1 0 0;
+  }
+}
+
+@media (max-width:800px) {
+
+  .productSpecsTitlesContainer {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .productSpecsInformationContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+  .productSpecsInformation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    flex: 1 0 0;
+  }
+  .productSpecsTitle {
+    align-self: stretch;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+
+  .productSpecsInformation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1 0 0;
+  }
+
+  .productSpecsTitleBlue{
+    color: #2C7EF8;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+}
